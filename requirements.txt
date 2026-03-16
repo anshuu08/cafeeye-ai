@@ -1,10 +1,9 @@
 streamlit
-opencv-python-headless==4.8.1.78
+opencv-python-headless
 google-genai
 python-dotenv
 ultralytics
-numpy==1.26.0
+numpy
 scipy
 pillow
 requests
-python-3.11
