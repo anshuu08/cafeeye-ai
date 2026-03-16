@@ -12,6 +12,9 @@ from detector import (
     format_duration
 )
 from menu import MENU, get_spice_emoji
+# Cloud deployment safety
+import os
+IS_CLOUD = os.environ.get("STREAMLIT_SHARING_MODE") or not os.path.exists("/dev/video0")
 
 st.set_page_config(
     page_title="CafeEye AI",
